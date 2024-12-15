@@ -1,0 +1,11 @@
+<launch>
+  <!-- Judgment Node 실행 -->
+  <node pkg="cream_sooo" type="hazard_detection" name="hazard_detection" output="screen">
+    <!-- 안전 거리 설정 -->
+    <param name="safe_distance" value="20.0" />
+    <!-- 최소 속도 설정 -->
+    <param name="min_speed" value="5.56" />
+    <!-- 원 반경 설정 -->
+    <param name="radius" value="1.5" />
+  </node>
+</launch>
